@@ -30,6 +30,12 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="To-Do List" id="3LQ-HK-fnc">
+                        <barButtonItem key="leftBarButtonItem" title="Delete All" id="Kjg-Mu-237">
+                            <color key="tintColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="deleteAllTasksButton:" destination="6IL-px-vgL" id="J9p-5z-vZO"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" style="done" systemItem="add" id="Yhs-sA-bUS">
                             <connections>
                                 <action selector="saveTask:" destination="6IL-px-vgL" id="my3-ce-DQW"/>
